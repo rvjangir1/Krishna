@@ -1,0 +1,41 @@
+body{
+    margin:auto
+}
+
+
+
+#heading{
+    height: 50px;
+    width: 100%;
+    /* text-align: left; */
+    /* margin-left: 2px; */
+    background-color: orange
+}
+
+#logo{
+    height: 50px;
+    width: 15%;
+    text-align: center;
+    float: left;
+    margin-top: -20px; 
+    /* background-color: orange */
+}
+#pages{
+    height: 35px;
+    width: 80%;
+    float: right;
+    text-align: center; 
+    margin-top: 15px;
+    /* background-color: orange */
+    
+}
+
+.storebox{
+    background-color: aqua;
+    height:500px;
+    width:100%;
+    /* margin-left:0px; */
+    /* border: 2px solid blue */
+}
+
+
