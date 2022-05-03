@@ -30,12 +30,78 @@ body{
     
 }
 
+
+
+
 .storebox{
     background-color: aqua;
     height:500px;
-    width:100%;
+    /* width:100%; */ 
+    border: 2px solid purple;
+    background-image: url('/images/background_image1.png');
+    background-repeat: no-repeat;
+    background-size:cover
+
+    /* background-image:url('image/food-wallpaper.png'); */
+
     /* margin-left:0px; */
     /* border: 2px solid blue */
 }
 
 
+
+#background{
+    height:250px;
+    /* width:100%;  */
+    background-image: url('images/background_image1.png');
+    background-repeat: no-repeat;
+    background-size:cover
+}
+
+#circle {
+    background-color: rgb(255 255 255/60%);
+    height:90px;
+    width:90px;
+    border: 2px solid black;
+    position: absolute;
+    margin-left:40%;
+    margin-top:5%;
+    border-radius:50%
+}
+
+#circle > span {
+    font-size:22px;
+    font-weight:bold;
+    margin-left: 1%;
+    margin-top:31%;
+    position: absolute;
+ 
+    color: red;
+   
+  
+}
+
+/* #text {
+    /* position: absolute;
+    font-size:24px;
+    font-weight:bold;
+    margin-left: 30%;
+    margin-top:17%; */
+
+
+
+#dropdown{
+    /* height:60px;
+    width:100%; */
+    margin-left:40%;
+    margin-top:20%;
+
+    /* margin-left: 40%;
+    margin-top:20%;
+    position: absolute;
+    width:30%; 
+    height:39px; 
+    border:2px solid red; 
+    float:left; */
+   
+}
